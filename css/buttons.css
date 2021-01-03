@@ -1,0 +1,84 @@
+.start-btn, .stop-btn, .reset-btn,.continue-btn, .end-btn{
+	padding: 8px 25px;
+	border:none;
+	background-color: #2fa558;
+	font-size: 18px;
+	color: white;
+	font-weight: 700;
+	border-radius: 10px;
+	letter-spacing: 1px;
+	cursor: pointer;
+}
+
+/*WYZEROWANIE*/
+
+.end-btn{
+	display: none;
+	margin-left: 30px;
+}
+.end-btn:hover{
+	transition: .5s;
+	background-color: #0a6932;
+}
+.end-btn:focus{
+	outline: 0;
+}
+
+/*ZATRZYMANIE*/
+
+.stop-btn{
+	display: none;
+}
+
+/*KONTYNUUACJA*/
+
+.continue-btn{
+	display: none;
+}
+
+.continue-btn:hover{
+	transition: .5s;
+	background-color: #0a6932;
+}
+
+.continue-btn:focus{
+	outline: 0;
+}
+
+/*RESET - OD POCZATKU*/
+.reset-btn{
+	display: none;
+	margin-left: 30px;
+}
+
+.reset-btn:hover{
+	transition: .5s;
+	background-color: #0a6932;
+}
+
+.reset-btn:focus{
+	outline: 0;
+}
+
+/*START*/
+
+.start-btn:hover{
+	transition: .5s;
+	background-color: #0a6932;
+}
+
+.start-btn:focus{
+	outline: 0;
+}
+
+/*STOP*/
+
+.stop-btn:hover{
+	transition: .5s;
+	background-color: #0a6932;
+}
+
+
+.stop-btn:focus{
+	outline: 0;
+}
